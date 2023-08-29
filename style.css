@@ -84,3 +84,10 @@
         position: relative;
         left: -12px;
       }
+
+      /* Event */
+      .container.marketing .row .col-lg-4 img {
+        border-radius: 50%;
+        width: 140px;
+        height: 140px;
+      }
