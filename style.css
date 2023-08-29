@@ -80,7 +80,7 @@
       .navbar-brand {
         text-align: left;
         background-color: #526D82;
-        padding: 10px;
+        padding: 20px;
         position: relative;
         left: -12px;
       }
@@ -90,4 +90,13 @@
         border-radius: 50%;
         width: 140px;
         height: 140px;
+      }
+
+      .navbar-expand-md .navbar-collapse {
+        justify-content: flex-end;
+      }
+
+      .navbar-expand-md .navbar-collapse li {
+        padding: 0 30px;
+        font-size: 25px;
       }
