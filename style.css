@@ -112,3 +112,19 @@
 
 
 
+      /* collection */
+      .collection {
+        color: white;
+        background-color: #27374D;
+        padding: 50px;
+      }
+
+      .head2 {
+        font-size: 50px;
+      }
+
+      .btn {
+        margin: 20px 0 0;
+        position: relative;
+        left: 90%;
+      }
