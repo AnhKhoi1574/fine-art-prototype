@@ -134,3 +134,41 @@ body {
   display: flex;
   justify-content: space-around;
 }
+
+/* detail pages */
+.detail_container {
+  display: flex;
+}
+
+.detail_container .large_image {
+  display: flex;
+  width: 500px;
+  justify-content: center;
+}
+
+.detail_container .large_image img {
+  width: 600px;
+}
+
+/* add to cart button */
+.detail_container .price_button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.detail_container .add_to_cart .button {
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #404847;
+}
+
+.detail_container .add_to_cart .button:hover {
+  background-color: #27374D;
+  transition: 0.3s;
+}
