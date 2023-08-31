@@ -142,12 +142,7 @@ body {
 
 .detail_container .large_image {
   display: flex;
-  width: 650px;
   justify-content: center;
-}
-
-.detail_container .large_image img {
-  width: 600px;
 }
 
 /* add to cart button */
